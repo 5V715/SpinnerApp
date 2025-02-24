@@ -1,5 +1,9 @@
 name: build
 on: push
+
+permissions:
+   id-token: write
+
 jobs:
     build-wasm:
         runs-on: ubuntu-latest
