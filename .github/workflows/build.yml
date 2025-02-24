@@ -19,7 +19,7 @@ jobs:
               id: deployment
               uses: actions/upload-pages-artifact@v3
               with:
-                path: ./composeApp/build/dist/productionExecutable
+                path: ./composeApp/build/dist/wasmJs/productionExecutable
 
     deploy:
         environment:
