@@ -1,3 +1,6 @@
+# Check it out:
+the main branch automatically deploys the wasm build to https://5v715.github.io/SpinnerApp/
+
 This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
